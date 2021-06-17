@@ -19,9 +19,8 @@
      console.log('sin coneccion ')
    });
 
-   socket.emit('mensaje',{nombre:'Alex'});
-   socket.on('mensaje',function(payload){
-     console.log(payload)
+   socket.on('active-bands',function(payload){
+     console.table(payload)
    })
  </script>
   </body>
