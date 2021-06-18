@@ -1,7 +1,6 @@
 {
   "name": "ban_name_server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,15 @@
     "express": "^4.17.1",
     "socket.io": "^4.1.2",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexespinozaf/Flutter-socket.io-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexespinozaf/Flutter-socket.io-server/issues"
+  },
+  "homepage": "https://github.com/alexespinozaf/Flutter-socket.io-server#readme",
+  "description": ""
 }
